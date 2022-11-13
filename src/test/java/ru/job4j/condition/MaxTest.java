@@ -23,8 +23,8 @@ public class MaxTest {
     }
 
     @Test
-    public void whenMax4To5Then5() {
-        int left = 4;
+    public void whenMax3To5Then5() {
+        int left = 3;
         int right = 5;
         int result = Max.max(left, right);
         int expected = 5;
