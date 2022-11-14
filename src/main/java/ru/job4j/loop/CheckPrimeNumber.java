@@ -14,5 +14,6 @@ public class CheckPrimeNumber {
         }
 
         return prime;
+
     }
 }
