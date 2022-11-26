@@ -50,7 +50,6 @@ public class PointTest {
         Assert.assertEquals(expected, out, 0.01);
     }
 
-
     @Test
     public void when000to122then3() {
         double expected = 3;
@@ -59,7 +58,6 @@ public class PointTest {
         double out = a.distance3d(b);
         Assert.assertEquals(expected, out, 0.01);
     }
-
 
     @Test
     public void when000to000then0() {
